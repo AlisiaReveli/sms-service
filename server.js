@@ -3,8 +3,8 @@ const bodyParser = require('body-parser');
 const AWS = require('aws-sdk');
 
 AWS.config.update({
-  accessKeyId: 'AKIA53UIZI6WABULQPOV',
-  secretAccessKey: 'yr1NuX75HLL72l1IwbRY4nGzRAKDArrjLeuBPvKv',
+  accessKeyId: 'accessKeyID',
+  secretAccessKey: 'secretAccessKey',
   region: 'eu-west-3', // Replace with your AWS region
 });
 
